@@ -62,7 +62,6 @@ class Ticker(_YahooFinance):
         timestamp or retrieving the "fmt" key.
     """
     def __init__(self, symbols, **kwargs):
-        print("Temp change, in the Ticker constructor") # REMOVE
         self._symbols = _convert_to_list(symbols)
         super(Ticker, self).__init__(**kwargs)
 
